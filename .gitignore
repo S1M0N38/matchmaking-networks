@@ -163,3 +163,4 @@ cython_debug/
 *.pgn
 *.pgn.zst
 *.csv
+*.torrent

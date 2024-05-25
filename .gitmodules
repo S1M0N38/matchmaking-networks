@@ -1,0 +1,3 @@
+[submodule "scripts/pgn2csv"]
+	path = scripts/pgn2csv
+	url = git@github.com:S1M0N38/pgn2csv.git

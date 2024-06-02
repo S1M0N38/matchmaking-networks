@@ -164,6 +164,8 @@ cython_debug/
 *.pgn.zst
 *.csv
 *.torrent
+*.gt
 
 # Notebooks
 notebooks/Untitled*.ipynb
+notebooks/figures

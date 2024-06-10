@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # Define the files to watch
-FILES_TO_WATCH=("notebooks/graph.ipynb" "docs/config.py")
+FILES_TO_WATCH=("notebooks/matchmaking-networks.ipynb")
 
 # Define the conversion command
 convert_notebook() {
-	jupyter-nbconvert "notebooks/graph.ipynb" \
+	jupyter-nbconvert "notebooks/matchmaking-networks.ipynb" \
 		--SlidesExporter.enabled=True \
 		--SlidesExporter.reveal_theme=simple \
 		--SlidesExporter.reveal_transition=fade \
@@ -21,7 +21,20 @@ convert_notebook() {
 		--SlidesExporter.reveal_number="t" \
 		--to slides
 
-	cp docs/graph.slides.html docs/index.html
+	# Then copy to index add manually add the following HTML
+	# cp docs/matchmaking-networks.slides.html docs/index.htm
+	# .jp-OutputArea-output {
+	#   display: table-cell;
+	#   width: 100%;
+	#   height: auto;
+	#   overflow: auto;
+	#   user-select: text;
+	#   -moz-user-select: text;
+	#   -webkit-user-select: text;
+	#   -ms-user-select: text;
+	#   display: flex;
+	#   justify-content: center;
+	# }
 }
 
 # Initial conversion

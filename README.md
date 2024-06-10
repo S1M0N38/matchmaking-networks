@@ -8,6 +8,10 @@ What's the emerging graph of matchmaking algorithms?
 - `pzstd -V` ≥ 1.5
 - `Rust`
 
+> Conda or similar like micromamba is recommended to manage the Python environment.
+> Graph-tool is a bit tricky to install, so I recommend to use the conda-forge channel.
+> Use `environment.yml` to create the environment.
+
 ## Data Preparation
 
 Download `.png.zst` files from [database.lichess.org](https://database.lichess.org/) and place into `data/pgn` directory.

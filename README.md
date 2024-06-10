@@ -1,6 +1,6 @@
-# matchmaking-graph
+# Matchmaking Networks
 
-What's the emerging graph of matchmaking algorithms?
+What's the emerging network of matchmaking algorithms?
 
 ## Requirements
 
@@ -29,5 +29,5 @@ cargo run --release --bin blitz ../../data/pgn ../../data/csv
 ## Data Analysis
 
 - Notebook: `notebooks/matchmaking-networks.ipynb`
-- Slides: [s1m0n38.github.io/matchmaking-graph/](https://s1m0n38.github.io/matchmaking-graph/)
+- Slides: [s1m0n38.github.io/matchmaking-networks/](https://s1m0n38.github.io/matchmaking-networks/)
 - Summary: `notebooks/summary.md`
